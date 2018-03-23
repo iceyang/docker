@@ -16,5 +16,5 @@ if [ -f $file ]; then
   echo "Error: $file is exists"
   exit 1
 else
-  echo "FORM $name" > $file
+  echo "FROM $name" > $file
 fi
