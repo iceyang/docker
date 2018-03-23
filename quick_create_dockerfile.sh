@@ -5,6 +5,9 @@ name=$1
 image=`echo $name | sed 's/:.*//g'`
 tag=`echo $name | sed 's/.*://g'`
 
+echo "image: $image"
+echo "tag: $tag"
+
 dir=$image/$tag
 file=$image/$tag/Dockerfile
 
